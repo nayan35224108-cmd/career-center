@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(chown nginx:nginx:*)",
+      "Bash(curl:*)",
+      "Bash(do:*)",
+      "WebFetch(domain:documenter.getpostman.com)",
+      "Bash(grep:*)",
+      "Bash(for f:*)",
+      "Bash(sed -i 's|<a href=\"\"/admin/settings\"\">Pengaturan</a>|<a href=\"\"/admin/media\"\">Media AI</a>\\\\n      <a href=\"\"/admin/settings\"\">Pengaturan</a>|g' \"$f\")",
+      "Bash(echo \"Updated: $f\")",
+      "Bash(done)",
+      "Bash(ollama list:*)",
+      "Bash(mysql:*)"
+    ]
+  }
+}
